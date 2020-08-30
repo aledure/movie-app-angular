@@ -14,6 +14,6 @@ export class MovieService {
   }
 
 getAllMovies() {
-  return this.HTMLOutputElement.get<any>(`${this.movieApi}/index`)
+  return this.http.get<any>(`${this.movieApi}/index`)
   }
 }

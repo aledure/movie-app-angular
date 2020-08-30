@@ -11,6 +11,8 @@ import { faSpinner, faAngleLeft, faAngleRight, faPlus, faStar, faStarHalfAlt, fa
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import {MovieService} from 'src/app/shared/services/movie.service';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
